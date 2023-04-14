@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "markov-chain"
+version = "0.1.0"
+description = ""
+authors = ["mgudimella <manasa.gudimella@gmail.com>"]
+readme = "README.md"
+packages = [{include = "markov_chain"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.24.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
